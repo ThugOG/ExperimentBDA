@@ -1,0 +1,12 @@
+hostname
+hdfs dfs -ls /
+service cloudera-scm-server status
+
+su
+
+3rd command repeat
+close the terminal and launch express app
+
+sudo /home/cloudera/cloudera-manager --force --express
+
+
