@@ -9,7 +9,7 @@ WC = Word Count
 (python3 subjective to the python version, also clone input.txt in same folder)
 
 
-2) ```cat input_MM.txt | python3 mapper_MM.py | sort | python3 reducer_MM.py```
+2) ```cat inputMM.txt | python3 mapper_MM.py | sort | python3 reducer_MM.py```
 
 
 3) I case of R programs use R studio to run them.
