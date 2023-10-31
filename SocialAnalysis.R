@@ -1,4 +1,6 @@
 # Load the required library
+install.packages("igraph")
+
 library(igraph)
 
 # Create a sample social network graph
