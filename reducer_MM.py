@@ -23,8 +23,7 @@ for line in sys.stdin:
                 else:
                     i += 1
             print("%s,%s"%(prev_index,str(result)))
-
-	prev_index = curr_index
+        prev_index = curr_index
         value_list = [(index,value)]
 
 if curr_index == prev_index:
@@ -38,3 +37,6 @@ if curr_index == prev_index:
         else:
             i += 1
     print("%s,%s"%(prev_index,str(result)))
+
+
+
