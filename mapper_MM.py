@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 #https://github.com/amberm291/MatrixMultiplyMR/blob/master/README.md
+#add xrange in case of using a older version of python
 import sys
 
 row_a, col_b = 5,5
