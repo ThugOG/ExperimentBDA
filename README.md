@@ -2,6 +2,9 @@
 ### Commands to run Mapper and Reducers 
 (Use only in case if you dont know how to run them on hadoop)
 
+MM = Matrix multiplication
+WC = Word Count
+
 1) ```cat input.txt | python3 mapper_WC.py | sort -k1,1 | python3 reducer_WC.py```
 (python3 subjective to the python version, also clone input.txt in same folder)
 
