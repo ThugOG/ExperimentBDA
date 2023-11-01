@@ -5,4 +5,4 @@ Commands to run Mapper and Reducers
 (python3 subjective to the python version, also clone input.txt in same folder)
 
 
-2) ```type input_MM.txt | python3 mapper_MM.py | sort | python3 reducer_MM.py```
+2) ```type inputMM.txt | python3 mapper_MM.py | sort | python3 reducer_MM.py```
