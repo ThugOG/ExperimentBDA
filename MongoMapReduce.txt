@@ -1,0 +1,15 @@
+mongosh
+
+use Stud
+
+db.studData.insertMany([{name:"Ram",marks:40,age:20},{name:"Siya",marks:50,age:20},{name:"Swati",marks:30,age:18},{name:"Rahul",marks:50,age:21},{name:"Riya",marks:60,age:21}])
+db.studData.find()
+
+var mapfunction = function(){emit(this.age,this.marks)}
+var reducefunction = function(key,values){return Array.sum(values)}
+
+db.studData.mapReduce(mapfunction ,reducefunction ,{out:'resultSum'})
+db.resultSum.find()
+
+db.studData.mapReduce(mapfunction ,function(key,values){return Array.avg(values)} ,{out:'resultAvg'})
+db.resultAvg.find()
