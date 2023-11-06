@@ -1,4 +1,5 @@
 
+install.packages("igraph") #important for colab
 
 library(igraph)
 
